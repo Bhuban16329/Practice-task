@@ -1,0 +1,147 @@
+/* HEADER STYLES */
+header {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-text {
+    text-align: right;
+    padding: 200px 100px 300px 900px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    color: var(--Dark-01, #151414);
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    width: 525px;
+}
+
+.para {
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    width: 494px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    color: white;
+}
+
+/* main styles */
+.main-div {
+    display: flex;
+    gap: 134px;
+    background: #FFF;
+    justify-content: space-around;
+}
+
+.main-div-thr {
+    padding: 170px 122px 0 0;
+}
+
+.main-dev-two {
+    padding-left: 50px;
+}
+
+.title-two {
+    text-align: center;
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    gap: 200px;
+    padding-right: 250px;
+    padding-left: 200px;
+}
+
+.plans {
+    text-align: center;
+}
+
+.last-div {
+    padding-top: 50px;
+}
+
+.images-one {
+    background-image: url('../images/watch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 260px;
+    padding-bottom: 59px;
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.always {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    width: 459px;
+    padding-top: 59px;
+
+}
+
+.btn-two {
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    padding: 20px 36px;
+}
+
+footer {
+    display: flex;
+    gap: 331px;
+    background-color: #151414;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-all {
+    color: #F8F8F8;
+
+}
+
+.footer-main {
+    padding-right: 230px;
+    padding-left: 230px;
+}
+
+.btn {
+    width: 170.106px;
+    height: 64px;
+    flex-shrink: 0;
+    color: #F15B22;
+}
+
+.form-info {
+    width: 1600px;
+    flex-shrink: 0;
+    background: #151414;
+    border: 0;
+}
