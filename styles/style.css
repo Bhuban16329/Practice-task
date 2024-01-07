@@ -79,7 +79,7 @@ body {
 }
 
 .images-one {
-    background-image: url('../images/watch.png');
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
     background-position: center;
     background-repeat: no-repeat;
     padding-left: 260px;
@@ -133,15 +133,31 @@ footer {
 }
 
 .btn {
-    width: 170.106px;
-    height: 64px;
-    flex-shrink: 0;
     color: #F15B22;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0px 36px;
+    border-radius: 8px;
+
 }
 
 .form-info {
     width: 1600px;
     flex-shrink: 0;
-    background: #151414;
-    border: 0;
+}
+.email-id{
+    padding: 22px 158px 22px 22px;
+    background: var(--Dark-01, #151414);
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+}
+.para-one{
+    width: 485px;
+}
+.last{
+    gap: 30px;
 }
